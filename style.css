@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+  }
+  .main-div{
+    width: 90%;
+    max-width: 900px;
+    margin:auto;
+    margin-top: 100px;
+  }
+  .input-div{
+    width:90%;
+    margin: auto;
+    text-align: center;
+  }
+#input{
+  width:400px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding:12px;
+  border:1px solid black;
+  outline-color: rgb(39, 75, 183);
+}
+button{
+  border:none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding: 12px 25px 12px 25px;
+  border-radius: 10px;
+  background-color: rgba(60, 225, 60, 0.829);
+  transition: background-color 0.18s;
+}
+button:hover{
+  background-color:  rgba(24, 190, 24, 0.829);
+}
+.style-this{
+  width:700px;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 30px;
+}
+img{
+  width:100px;
+  height:60px;
+  margin-top: 23px;
+}
+.flex-div{
+  display: flex;
+  width:790px;
+  margin: auto;
+  padding: 20px 20px 30px 20px;
+  margin-top: 20px;
+}
+span{
+  color:rgba(0, 153, 255, 0.815)
+}
+.utc{
+  color: rgb(52, 21, 227);
+}
+.cloatofarms{
+  height:125px;
+}
